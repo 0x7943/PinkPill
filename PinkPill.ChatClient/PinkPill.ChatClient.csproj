@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows10.0.18362.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <StartupObject>PinkPill.ChatClient.Program</StartupObject>
+    <ServerGarbageCollection>true</ServerGarbageCollection>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Magick.NET-Q8-AnyCPU" Version="7.22.2.2" />
+    <PackageReference Include="Mirai-CSharp" Version="1.0.2.2-preview.2" />
+    <PackageReference Include="ModernWpfUI" Version="0.9.3-preview.201204.0" />
+    <PackageReference Include="PropertyChanged.Fody" Version="3.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PinkPill\PinkPill.csproj" />
+  </ItemGroup>
+
+</Project>

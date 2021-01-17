@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="PinkPill.ChatClient.ChatView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PinkPill.ChatClient"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <ScrollViewer Grid.Row="0">
+            <StackPanel Orientation="Vertical" x:Name="StackPanel">
+
+            </StackPanel>
+        </ScrollViewer>
+        <GridSplitter Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" 
+                      Height="5"/>
+        <TextBox x:Name="MessageInputBox" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" TextWrapping="Wrap" Grid.Row="1"/>
+        <Button Grid.Row="2" HorizontalAlignment="Right" Margin="10" Click="Send">发送</Button>
+    </Grid>
+</UserControl>

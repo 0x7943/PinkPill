@@ -1,8 +1,9 @@
 ﻿using System;
 
-namespace PinkPill
+namespace PinkPill.Utilis
 {
     public class Class1
     {
+
     }
 }

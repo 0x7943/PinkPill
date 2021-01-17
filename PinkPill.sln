@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PinkPill", "PinkPill\PinkPill.csproj", "{E641696D-4336-466D-BAE1-86F959ECD4CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinkPill.ConsoleTest", "PinkPill.ConsoleTest\PinkPill.ConsoleTest.csproj", "{D430B8DE-2EC6-4AE1-AD57-0A7B540F649A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PinkPill.ConsoleTest", "PinkPill.ConsoleTest\PinkPill.ConsoleTest.csproj", "{D430B8DE-2EC6-4AE1-AD57-0A7B540F649A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinkPill.ChatClient", "PinkPill.ChatClient\PinkPill.ChatClient.csproj", "{3EE1FE1C-F3F9-40AB-B942-04E10CBCE5FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinkPill.Utilis", "PinkPill.Utilis\PinkPill.Utilis.csproj", "{3642F851-C14B-4A66-950A-4A6AFB33A1FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{D430B8DE-2EC6-4AE1-AD57-0A7B540F649A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D430B8DE-2EC6-4AE1-AD57-0A7B540F649A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D430B8DE-2EC6-4AE1-AD57-0A7B540F649A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE1FE1C-F3F9-40AB-B942-04E10CBCE5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE1FE1C-F3F9-40AB-B942-04E10CBCE5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE1FE1C-F3F9-40AB-B942-04E10CBCE5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE1FE1C-F3F9-40AB-B942-04E10CBCE5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3642F851-C14B-4A66-950A-4A6AFB33A1FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3642F851-C14B-4A66-950A-4A6AFB33A1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3642F851-C14B-4A66-950A-4A6AFB33A1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3642F851-C14B-4A66-950A-4A6AFB33A1FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
